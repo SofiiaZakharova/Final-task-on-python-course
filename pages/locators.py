@@ -11,8 +11,10 @@ class LoginPageLocators:
 
 
 class ProductPageLocators:
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alertinner')
     ADD_TO_BASKET = (By.CSS_SELECTOR, '.btn-add-to-basket')
     NAME_PRODUCT = (By.CSS_SELECTOR, '.product_main h1')
     PRICE_PRODUCT = (By.CSS_SELECTOR, '.product_main .price_color')
     TEXT_IN_ADD_BASKET_MESSAGE = (By.CSS_SELECTOR, '.alert-success .alertinner strong')
     PRICE_IN_ADD_BASKET_MESSAGE = (By.CSS_SELECTOR, '.alert .alert-safe .alert-noicon .alert-info  .fade in')
+
